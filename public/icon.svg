@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6" />
+      <stop offset="55%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#0891B2" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <!-- Full-bleed rounded storybook backdrop -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)" />
+  <!-- Soft cream storybook badge -->
+  <circle cx="256" cy="256" r="184" fill="#FFFDF7" stroke="#FDE68A" stroke-width="14" />
+  <!-- Compass / Star emblem -->
+  <path
+    d="M256 106 L292 204 L394 212 L314 274 L342 374 L256 316 L170 374 L198 274 L118 212 L220 204 Z"
+    fill="url(#goldGrad)"
+    stroke="#B45309"
+    stroke-width="10"
+    stroke-linejoin="round"
+  />
+  <!-- Center heart / friendship jewel -->
+  <circle cx="256" cy="252" r="46" fill="#FCE7F3" stroke="#EC4899" stroke-width="8" />
+  <path
+    d="M256 276 C256 276 228 258 228 242 C228 232 236 226 244 226 C250 226 254 230 256 234 C258 230 262 226 268 226 C276 226 284 232 284 242 C284 258 256 276 256 276 Z"
+    fill="#EC4899"
+  />
+  <!-- Little nature leaf accent -->
+  <path
+    d="M342 128 C374 122 396 144 388 176 C358 182 336 160 342 128 Z"
+    fill="#4ADE80"
+    stroke="#15803D"
+    stroke-width="7"
+    stroke-linejoin="round"
+  />
+</svg>
